@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Plastic';
+    src: url('Plastic Beauty Light.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    margin-top: 100px !important;
+}
+
+.tudo_footer{
+    width: 100% !important;
+}
+
+
+#cardapio{
+    font-family: 'Plastic',Times,sans-serif;
+    font-size: 80px;
+}
+
+#navbar{
+    height: 100px;
+}
+#filter{
+    color: #5e2723;
+}

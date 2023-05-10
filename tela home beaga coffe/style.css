@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+#navbar{
+    height: 100px;
+}
+.fundo{
+    background-color: #5e2723;
+}
+
+.fontcolor{
+    color: aliceblue;
+}
+
+.textcenter{
+    text-align: center;
+}
+
+.borda{
+    border-radius: 10px;
+}
+
+.bordaimg{
+    border-radius: 5%;
+}

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5c3ad0c148.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="../CARDAPIO/logo oficial.png" alt="logo" style="width:100px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-disabled="true">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../QuemSomos/coffe.html">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CORPO -->
+
+    <div class="container">
+        <!-- TITULO E BOTÕES -->
+        <h1 class="text-center pt-4 pb-4 text-dark col-12" id="cardapio">Cardapio</h1>
+        <div class="d-flex align-items-end justify-content-end flex-column">
+            <h4 id="filter"><i class="fa-solid fa-filter"></i>Filtrar Produtos</h4>
+            <div class="flex-row">
+                <button type="button" class="btn btn-outline-success me-2" id="tudo">Tudo</button>
+                <button type="button" class="btn btn-outline-success me-2" id="bebidas">Bebidas</button>
+                <button type="button" class="btn btn-outline-success me-2" id="salgados">Salgados</button>
+                <button type="button" class="btn btn-outline-success" id="doces">Doces</button>
+            </div>
+        </div>
+
+        <!-- BEBIDAS -->
+
+        <div class="row col-12 text-dark" id="conteudo_bebida">
+            <h3 class="text-center text-dark pt-4">Bebidas</h3>
+            <div
+                class=" col-12 col-sm-12 col-lg-4 d-flex align-items-center justify-content-center text-center flex-column g-5">
+                <img src="./imagensCARDAPIO/Cafe.jpeg" alt="Café"
+                    class="d-flex align-items-center justify-content-center text center w-100">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nisi tenetur aperiam
+                    molestiae cupiditate non?</p>
+                <h4><b>Preço: R$00,00</b></h4>
+                <br>
+                <button type="button" class="btn btn-outline-success">Comprar</button>
+            </div>
+            <div
+                class=" col-12 col-sm-12 col-lg-4 d-flex align-items-center justify-content-center text-center flex-column g-5">
+                <img src="./imagensCARDAPIO/Cappucino.jpeg" alt="Cappucino"
+                    class="d-flex align-items-center justify-content-center text center w-100">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nisi tenetur aperiam
+                    molestiae cupiditate non?</p>
+                <h4><b>Preço: R$00,00</b></h4>
+                <br>
+                <button type="button" class="btn btn-outline-success">Comprar</button>
+            </div>
+            <div
+                class=" col-12 col-sm-12 col-lg-4 d-flex align-items-center justify-content-center text-center flex-column g-5">
+                <img src="./imagensCARDAPIO/Chá.jpeg" alt="Chá"
+                    class="d-flex align-items-center justify-content-center text center w-100">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nisi tenetur aperiam
+                    molestiae cupiditate non?</p>
+                <h4><b>Preço: R$00,00</b></h4>
+                <br>
+                <button type="button" class="btn btn-outline-success">Comprar</button>
+            </div>
+        </div>
+
+        <!-- SALGADOS -->
+        <div class="row col-12 text-dark" id="conteudo_salgado">
+            <h3 class="text-center text-dark pt-4">Salgados</h3>
+            <div
+                class=" col-12 col-sm-12 col-lg-4 d-flex align-items-center justify-content-center text-center flex-column g-5">
+                <img src="./imagensCARDAPIO/coxinha.jpg" alt="Coxinha"
+                    class="d-flex align-items-center justify-content-center text center w-100">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nisi tenetur aperiam
+                    molestiae cupiditate non?</p>
+                <h4><b>Preço: R$00,00</b></h4>
+                <br>
+                <button type="button" class="btn btn-outline-success">Comprar</button>
+            </div>
+            <div
+                class=" col-12 col-sm-12 col-lg-4 d-flex align-items-center justify-content-center text-center flex-column g-5">
+                <img src="./imagensCARDAPIO/torta.jpg" alt="Torta"
+                    class="d-flex align-items-center justify-content-center text center w-100">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nisi tenetur aperiam
+                    molestiae cupiditate non?</p>
+                <h4><b>Preço: R$00,00</b></h4>
+                <br>
+                <button type="button" class="btn btn-outline-success">Comprar</button>
+            </div>
+            <div
+                class=" col-12 col-sm-12 col-lg-4 d-flex align-items-center justify-content-center text-center flex-column g-5">
+                <img src="./imagensCARDAPIO/paodequeijo.jpg" alt="PaodeQueijo"
+                    class="d-flex align-items-center justify-content-center text center w-100">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nisi tenetur aperiam
+                    molestiae cupiditate non?</p>
+                <h4><b>Preço: R$00,00</b></h4>
+                <br>
+                <button type="button" class="btn btn-outline-success">Comprar</button>
+            </div>
+        </div>
+
+        <!-- DOCES -->
+        <div class="row col-12 text-dark" id="conteudo_doce">
+            <h3 class="text-center text-dark pt-4">Doces</h3>
+            <div
+                class=" col-12 col-sm-12 col-lg-4 d-flex align-items-center justify-content-center text-center flex-column g-5">
+                <img src="./imagensCARDAPIO/bolo.jpg" alt="Bolo"
+                    class="d-flex align-items-center justify-content-center text center w-100">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nisi tenetur aperiam
+                    molestiae cupiditate non?</p>
+                <h4><b>Preço: R$00,00</b></h4>
+                <br>
+                <button type="button" class="btn btn-outline-success">Comprar</button>
+            </div>
+            <div
+                class=" col-12 col-sm-12 col-lg-4 d-flex align-items-center justify-content-center text-center flex-column g-5">
+                <img src="./imagensCARDAPIO/pudim.jpg" alt="Pudim"
+                    class="d-flex align-items-center justify-content-center text center w-100">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nisi tenetur aperiam
+                    molestiae cupiditate non?</p>
+                <h4><b>Preço: R$00,00</b></h4>
+                <br>
+                <button type="button" class="btn btn-outline-success">Comprar</button>
+            </div>
+            <div
+                class=" col-12 col-sm-12 col-lg-4 d-flex align-items-center justify-content-center text-center flex-column g-5">
+                <img src="./imagensCARDAPIO/brownie.jpeg" alt="Brownie"
+                    class="d-flex align-items-center justify-content-center text center w-100">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nisi tenetur aperiam
+                    molestiae cupiditate non?</p>
+                <h4><b>Preço: R$00,00</b></h4>
+                <br>
+                <button type="button" class="btn btn-outline-success">Comprar</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FIM CORPO -->
+
+
+
+    <!-- FOOTER -->
+
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class="mt-5 tudo_footer bg-body-tertiary">
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-dark">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Links -->
+                <section class="">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">Produtos</h6>
+                            <p>
+                                <a class="text-dark" href="#conteudo_bebida">Bebidas</a>
+                            </p>
+                            <p>
+                                <a class="text-dark" href="#conteudo_salgado">Salgados</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">Contatos</h6>
+                            <p><i class="fas fa-home mr-3"></i> Av.Lisboa,268,Eldorado,Contagem-MG</p>
+                            <p><i class="fas fa-envelope mr-3"></i> admsenacthebest@gmail.com</p>
+                            <p><i class="fas fa-phone mr-3"></i> (31) 00000-0000</p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">Siga-nos</h6>
+
+                            <!-- Facebook -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!"
+                                role="button"><i class="fab fa-facebook-f"></i></a>
+
+                            <!-- Twitter -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!"
+                                role="button"><i class="fab fa-twitter"></i></a>
+
+                            <!-- Instagram -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!"
+                                role="button"><i class="fab fa-instagram"></i></a>
+
+                            
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                Todos os Direitos Autorais Reservados © 2023
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
+    <!-- End of .container -->
+
+    <!-- FIM FOOTER -->
+
+    <script>
+        $("#tudo").click(function () {
+            $("#conteudo_salgado").fadeOut();
+            $("#conteudo_bebida").fadeOut();
+            $("#conteudo_doce").fadeOut();
+            $("#conteudo_salgado").fadeIn();
+            $("#conteudo_bebida").fadeIn();
+            $("#conteudo_doce").fadeIn();
+        });
+        $("#bebidas").click(function () {
+            $("#conteudo_salgado").fadeOut();
+            $("#conteudo_bebida").fadeIn();
+            $("#conteudo_doce").fadeOut();
+        });
+        $("#salgados").click(function () {
+            $("#conteudo_bebida").fadeOut();
+            $("#conteudo_salgado").fadeIn();
+            $("#conteudo_doce").fadeOut();
+        });
+        $("#doces").click(function () {
+            $("#conteudo_bebida").fadeOut();
+            $("#conteudo_salgado").fadeOut();
+            $("#conteudo_doce").fadeOut();
+            $("#conteudo_doce").fadeIn();
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
