@@ -6,9 +6,6 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-*{
-    font-family: 'Open Sans', sans-serif;
-}
 
 .container{
     margin-top: 100px !important;
@@ -23,10 +20,29 @@
     font-family: 'Plastic',Times,sans-serif;
     font-size: 80px;
 }
-
-#navbar{
-    height: 100px;
+#filter-texto{
+    color: #102710;
 }
 #filter{
-    color: #5e2723;
+    color: #102710;
+}
+
+.botao{
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.botao:hover{
+    background-color: #112911;
+    color: #fff;
+}
+
+.teste:hover{
+    background-color: #102710;
+    color: #fff;
+}
+
+.imagenscardapio{
+    border-radius: 20px;
 }

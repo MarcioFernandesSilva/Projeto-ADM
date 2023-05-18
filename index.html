@@ -5,218 +5,185 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="./QuemSomos/logo.png">
+    <title>Beagá Coffe</title>
+
+    <!-- LINK CSS BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- LINK ICONS  -->
     <script src="https://kit.fontawesome.com/5c3ad0c148.js" crossorigin="anonymous"></script>
+
+    <!-- CSS DA PAGINA -->
     <link rel="stylesheet" href="./tela home beaga coffe/style.css">
 
 </head>
 
 <body>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" id="navbar">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./CARDAPIO/logo oficial.png" alt="logo" style="width:100px"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" aria-disabled="true">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./CARDAPIO/pagina.html">Produtos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./QuemSomos/coffe.html">Quem Somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contatos</a>
-                    </li>
-                </ul>
+    <header>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbar" style="background-color: #102710;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./CARDAPIO/LogoR.png" alt="logo" style="width:100px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation" style="background-color: white;">
+                    <span class="navbar-toggler-icon" style="background-color: white;"></span>
+                </button>
+                <div class="collapse navbar-collapse" style="background-color: #102710;" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-light active" aria-disabled="true" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./CARDAPIO/cardapioteste.html">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./QuemSomos/coffe.html">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#contato">Contatos</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <!-- carrocel -->
-
-    <div class="container">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <!-- CARROUSEL -->
+    <div class="container" style="margin-top: 125px;" id="sobre_nos">
+        <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder|</title>
-                        <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555"
-                            dy=".3em">First slide</text>
-                    </svg> -->
-                    <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                        src="./tela home beaga coffe/imagens/Alimentos/1.png" alt="café">
-                    <rect width="100%" height="100%" fill="#777"></rect></img>
+                    <img src="./tela home beaga coffe/imagens/Alimentos/primeira.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444"
-                            dy=".3em">Second slide</text>
-                    </svg> -->
-                    <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                        src="./tela home beaga coffe/imagens/Alimentos/3.png" alt="café">
+                    <img src="./tela home beaga coffe/imagens/Alimentos/segunda.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333"
-                            dy=".3em">Third slide</text>
-                    </svg> -->
-                    <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                        src="./tela home beaga coffe/imagens/Alimentos/4.png" alt="café">
+                    <img src="./tela home beaga coffe/imagens/Alimentos/terceira.png" class="d-block w-100" alt="...">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
     </div>
 
+    <main>
+        <section>
 
-    <!-- home -->
+            <!-- LINK SOBRE NÓS -->
 
-
-    <div class="container text-center g-5 ">
-
-        <div class="row fundo borda mt-5 d-flex justify-content-center flex flex-column">
-
-            <div class="col-12 ">
-
-                <h4 class="fontcolor">
-                    <div class="mt-5"></div>
-
-                    <h4 class="fontcolor">Para mais informaçãoes sobre nós</h4>
-
-                    <button type="button" class="btn btn-outline-light">Saiba mais</button>
-
-                    <div class="mt-5"></div>
+            <div class="container d-flex align-items-center justify-content-center text-center" id="origem_cafe">
+                <div class="row col-12">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex flex-column align-items-center justify-content-center text-center p-5 mt-4 mb-4 rounded-3"
+                        style="background-color: #5e2723;">
+                        <p class="text-light fs-4">Para mais Informações sobre nós</p>
+                        <a href="./QuemSomos/coffe.html"><button type="button" class="btn btn-outline-light">Saiba
+                                Mais</button>
+                    </div>
+                    </a>
+                </div>
             </div>
 
-        </div>
+        </section>
 
-        <div class="row fundo borda mt-5">
+        <section>
 
+            <!-- ORIGEM DO CAFÉ -->
 
-
-            <div class="col-6 fundo borda d-flex justify-content-center flex flex-column">
-                <h3 class="fontcolor">Origem do café</h3>
-                <p class="fontcolor ">
-                    O Café, é uma bebida consumida em vários países, teve sua origem na África, nas
-                    terras altas da Etiópia (Cafa e Enária). Uma lenda conta que um pastor chamado Kaldi
-                    observou que suas cabras ficavam mais espertas ao comer as folhas e frutos do
-                    cafeeiro. Ele experimentou os frutos e sentiu maior vivacidade. Um monge da região,
-                    informado sobre o fato, começou a utilizar uma infusão de frutos para resistir ao sono
-                    enquanto orava.
-
-                </p>
+            <div class="container d-flex align-items-center justify-content-center text-center mb-4"
+                id="cafe_no_brasil">
+                <div class="row col-12 p-2 rounded-3" style="background-color: #5e2723;">
+                    <div
+                        class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center justify-content-center text-center flex-column text-light">
+                        <h3 id="origem">Origem do Café</h3>
+                        <p>O Café, é uma bebida consumida em vários países, teve sua origem na África, nas
+                            terras altas da Etiópia (Cafa e Enária). Uma lenda conta que um pastor chamado Kaldi
+                            observou que suas cabras ficavam mais espertas ao comer as folhas e frutos do
+                            cafeeiro. Ele experimentou os frutos e sentiu maior vivacidade. Um monge da região,
+                            informado sobre o fato, começou a utilizar uma infusão de frutos para resistir ao sono
+                            enquanto orava.</p>
+                    </div>
+                    <img src="./tela home beaga coffe/imagens/origem.png" alt="origemCafé"
+                        class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                </div>
             </div>
-            <div class="col-6 my-2">
 
-                <img src="./tela home beaga coffe/imagens/wepik-export-20230509161834KV2o.png" class="rounded float-end" width="100%"
-                    height="100%">
+        </section>
 
-            </div>
+        <!-- CAFÉ NO BRASIL -->
 
-        </div>
-
-        <div class="row fundo borda mt-5">
-
-            <div class="col-6 my-2">
-                <img src="./tela home beaga coffe/imagens/wepik-export-20230509162611mnOn.png" class="rounded float-end" width="100%"
-                    height="100%">
-            </div>
-            <div class="col-6 d-flex justify-content-center flex-column">
-
-                <h3 class="fontcolor">Café no Brasil</h3>
-                <p class="fontcolor ">
-                    O café está presente na história do Brasil desde o século XIX, na época do Império. Após os ciclos
-                    econômicos do pau-brasil, da cana-de-açcar e do ouro, o ciclo do café, que vai até o século XX,
-                    representou a maior fonte de riqueza do pas e o principal produto de exportaço. O café é a segunda
-                    bebida mais consumida no mundo, atrás apenas da água. Entre outubro de 2021 e setembro de 2022, o
-                    mundo produziu 170,83 milhes de sacas de 60 quilos e consumiu 164,9 milhes de sacas. O Brasil é o
-                    segundo
-
-
-                </p>
+        <div class="container d-flex align-items-center justify-content-center text-center mb-4">
+            <div class="row col-12 p-2 rounded-3" style="background-color: #5e2723;">
+                <div
+                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center justify-content-center text-center flex-column text-light">
+                    <h3 id="cafe-brasil">Café no Brasil</h3>
+                    <p>O café está presente na história do Brasil desde o século XIX, na época do Império. Após os
+                        ciclos
+                        econômicos do pau-brasil, da cana-de-açcar e do ouro, o ciclo do café, que vai até o século XX,
+                        representou a maior fonte de riqueza do pas e o principal produto de exportaço. O café é a
+                        segunda
+                        bebida mais consumida no mundo, atrás apenas da água. Entre outubro de 2021 e setembro de 2022,
+                        o
+                        mundo produziu 170,83 milhes de sacas de 60 quilos e consumiu 164,9 milhes de sacas. O Brasil é
+                        o
+                        segundo</p>
+                </div>
+                <img src="./tela home beaga coffe/imagens/Brasil.png" alt="origemCafé"
+                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
             </div>
         </div>
 
-        <div class="row fundo borda mt-5">
-            <div class="col-6 d-flex justify-content-center flex-column">
-                <h3 class="fontcolor">Café e Minas Gerais</h3>
-                <p class="fontcolor ">
-                    Minas Gerais é o maior produtor e exportador de café do mundo, com produção
-                    superior a 30 milhões de sacas por ano. Dos 47 milhões de sacas produzidas no Brasil
-                    na última safra, 22,1 milhões saíram de terras mineiras. As regiões centro-oeste e sul
-                    têm juntas a maior área da cafeicultura: cerca de 650 mil hectares plantados em 154
-                    municípios.
-                    O mercado externo é o destino da fazenda da família Afonso, na cidade de Cristina,
-                    na Serra da Mantiqueira, no sul de Minas Gerais. A relação de Sebastião Afonso da
-                    Silva, cafeicultor que está à frente da produção, começou após um momento de crise.
+        <section>
 
+            <!-- CAFÉ E MINAS GERAIS -->
 
-                </p>
-            </div>
-            <div class="col-6 my-2 ">
-                <img src="./tela home beaga coffe/imagens/wepik-export-20230509162343gyeN.png" class="rounded float-end" width="100%"
-                    height="100%">
-            </div>
-        </div>
-
-    </div>
-
-    <!-- <div class="container text-center ">
-        <div class="row fundo">
-            <div class="col-7">
-                <img src="CARROSSEL1.png" width="100%" height="100%">
+            <div class="container d-flex align-items-center justify-content-center text-center mb-4">
+                <div class="row col-12 p-2 rounded-3" style="background-color: #5e2723;">
+                    <div
+                        class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center justify-content-center text-center flex-column text-light">
+                        <h3 id="cafe-minas">Café e Minas Gerais</h3>
+                        <p>Minas Gerais é o maior produtor e exportador de café do mundo, com produção
+                            superior a 30 milhões de sacas por ano. Dos 47 milhões de sacas produzidas no Brasil
+                            na última safra, 22,1 milhões saíram de terras mineiras. As regiões centro-oeste e sul
+                            têm juntas a maior área da cafeicultura: cerca de 650 mil hectares plantados em 154
+                            municípios.
+                            O mercado externo é o destino da fazenda da família Afonso, na cidade de Cristina,
+                            na Serra da Mantiqueira, no sul de Minas Gerais. A relação de Sebastião Afonso da
+                            Silva, cafeicultor que está à frente da produção, começou após um momento de crise.</p>
+                    </div>
+                    <img src="./tela home beaga coffe/imagens/minas.png" alt="origemCafé"
+                        class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                </div>
             </div>
 
-            <div class="col-5 d-flex justify-content-center flex-column">
+        </section>
 
-                <h3 class="fontcolor">Origem do café</h3>
-                <p class="fontcolor ">
-                    O Café, é uma bebida consumida em vários países, teve sua origem na África, nas
-                    terras altas da Etiópia (Cafa e Enária). Uma lenda conta que um pastor chamado Kaldi
-                    observou que suas cabras ficavam mais espertas ao comer as folhas e frutos do
-                    cafeeiro. Ele experimentou os frutos e sentiu maior vivacidade. Um monge da região,
-                    informado sobre o fato, começou a utilizar uma infusão de frutos para resistir ao sono
-                    enquanto orava.
+    </main>
 
-                </p>
-            </div>
-        </div>
 
-    </div> -->
+
+
+
+
+
+
+
 
     <!-- FOOTER -->
 
     <!-- Remove the container if you want to extend the Footer to full width. -->
     <div class="mt-5 tudo_footer bg-body-tertiary">
         <!-- Footer -->
-        <footer class="text-center text-lg-start text-dark">
+        <footer class="text-center text-lg-start text-light" style="background-color: #5e2723;">
             <!-- Grid container -->
             <div class="container p-4 pb-0">
                 <!-- Section: Links -->
@@ -231,12 +198,15 @@
 
                         <!-- Grid column -->
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                            <h6 class="text-uppercase mb-4 font-weight-bold">Produtos</h6>
+                            <h6 class="text-uppercase mb-4 font-weight-bold">Principal</h6>
                             <p>
-                                <a class="text-dark" href="#conteudo_bebida">Bebidas</a>
+                                <a class="text-light" href="#sobre_nos">Saiba Mais</a>
                             </p>
                             <p>
-                                <a class="text-dark" href="#conteudo_salgado">Salgados</a>
+                                <a class="text-light" href="#origem_cafe">Origem do Café</a>
+                            </p>
+                            <p>
+                                <a class="text-light" href="#cafe_no_brasil">Café no Brasil</a>
                             </p>
                         </div>
                         <!-- Grid column -->
@@ -248,7 +218,7 @@
 
                         <!-- Grid column -->
                         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                            <h6 class="text-uppercase mb-4 font-weight-bold">Contatos</h6>
+                            <h6 class="text-uppercase mb-4 font-weight-bold" id="contato">Contatos</h6>
                             <p><i class="fas fa-home mr-3"></i> Av.Lisboa,268,Eldorado,Contagem-MG</p>
                             <p><i class="fas fa-envelope mr-3"></i> admsenacthebest@gmail.com</p>
                             <p><i class="fas fa-phone mr-3"></i> (31) 00000-0000</p>
@@ -281,14 +251,17 @@
             <!-- Grid container -->
 
             <!-- Copyright -->
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-                Todos os Direitos Autorais Reservados © 2023
+            <div class="text-center p-3 text-light" style="background-color:rgb(76, 23, 19)">
+                Todos os Direitos Reservados © 2023
             </div>
             <!-- Copyright -->
         </footer>
         <!-- Footer -->
     </div>
     <!-- End of .container -->
+
+    <!-- FIM FOOTER -->
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"

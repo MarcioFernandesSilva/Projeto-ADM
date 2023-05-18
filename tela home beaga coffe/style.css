@@ -1,11 +1,12 @@
+@font-face {
+    font-family: 'Plastic';
+    src: url('Plastic Beauty Light.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-*{
-    font-family: 'Open Sans', sans-serif;
-}
-#navbar{
-    height: 100px;
-}
+
 .fundo{
     background-color: #5e2723;
 }
@@ -25,3 +26,21 @@
 .bordaimg{
     border-radius: 5%;
 }
+
+
+#origem{
+    font-family: 'Plastic',Times,sans-serif;
+    font-size: 50px;
+}
+
+#cafe-brasil{
+    font-family: 'Plastic',Times,sans-serif;
+    font-size: 50px;
+}
+
+#cafe-minas{
+    font-family: 'Plastic',Times,sans-serif;
+    font-size: 50px;
+}
+
+
