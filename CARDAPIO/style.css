@@ -6,6 +6,21 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+#conteudo_bebida{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#conteudo_salgado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#conteudo_doce{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .container{
     margin-top: 100px !important;
@@ -46,3 +61,4 @@
 .imagenscardapio{
     border-radius: 20px;
 }
+
